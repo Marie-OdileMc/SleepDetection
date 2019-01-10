@@ -2,6 +2,7 @@
 EPF school project for sleep detection with a reactivity test
 
 #Installation
+
 In order to use this project you will need to install OpenCV, Dlib and Python
 To do this use the following links :
 
