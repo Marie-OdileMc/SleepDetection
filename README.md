@@ -35,3 +35,9 @@ python3 setup.py install --yes USE_AVX_INSTRUCTIONS --no DLIB_USE_CUDA
 ```
  
 Also you will need dlib’s pre-trained facial landmark detector that you can download from here "http://jmp.sh/4bIYiPU ". Place it at the root of your folder (where the two python files will be)
+
+# Last step - Run the app
+
+```
+python fenetre.py
+```
