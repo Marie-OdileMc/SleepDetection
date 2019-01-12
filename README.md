@@ -13,5 +13,25 @@ But also the following libs (using pip) :
 - scipy 
 - numpy 
 - imutils 
+
+Clone the code from github:
+
+```
+git clone https://github.com/Marie-OdileMc/SleepDetection.git
+```
+
+Build the main dlib library:
+
+```
+cd dlib
+mkdir build; cd build; cmake .. -DDLIB_USE_CUDA=0 -DUSE_AVX_INSTRUCTIONS=1; cmake --build .
+```
+
+Build and install the Python extensions:
+
+```
+cd ..
+python3 setup.py install --yes USE_AVX_INSTRUCTIONS --no DLIB_USE_CUDA
+```
  
-Also you will need dlib’s pre-trained facial landmark detector. from here "http://jmp.sh/4bIYiPU " place it place it at the root of your folder (where the two python files will be)
+Also you will need dlib’s pre-trained facial landmark detector that you can download from here "http://jmp.sh/4bIYiPU ". Place it at the root of your folder (where the two python files will be)
