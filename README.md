@@ -38,6 +38,7 @@ Also you will need dlib’s pre-trained facial landmark detector that you can do
 
 # Last step - Run the app
 
+Go to the root of your project and thene execute the fenetre.py file
 ```
 python fenetre.py
 ```
